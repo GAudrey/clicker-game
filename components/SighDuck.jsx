@@ -1,4 +1,5 @@
 import React from "react";
+import sighduck from "../assets/images/sgn_duck_300.png";
 
 class SighDuck extends React.Component {
     constructor(props) {
@@ -8,9 +9,12 @@ class SighDuck extends React.Component {
             prod: 0,
             items: [
                 {id: 0, name: 'Wild Sigh-Duck', qty: 0, price: 100, idleD: 3},
-                {id: 1, name: 'Duck Keychain', qty: 0, price: 250, idleD: 5},
-                {id: 2, name: 'Duck Fishing', qty: 0, price: 500, idleD: 10},
-                {id: 3, name: 'Dev Discord Channel', qty: 0, price: 1000, idleD: 10},
+                {id: 1, name: 'Sigh-Duck Keychain', qty: 0, price: 250, idleD: 5},
+                {id: 2, name: 'Sigh-Duck Fishing', qty: 0, price: 500, idleD: 10},
+                {id: 3, name: 'Dev Discord Channel', qty: 0, price: 1000, idleD: 25},
+                {id: 4, name: 'Leinox\'s Tips', qty: 0, price: 2500, idleD: 50},
+                {id: 5, name: 'Sighne\'s Autograph', qty: 0, price: 5000, idleD: 100},
+                {id: 6, name: 'Captain Nakou\'s Tweet', qty: 0, price: 10000, idleD: 500},
             ],
         };
     }
@@ -53,7 +57,7 @@ class SighDuck extends React.Component {
         return (
             <>
                 <section>
-                    <img src="https://cdn.discordapp.com/attachments/786550523733606420/814505432223580230/sgn_duck_300.png" onClick={this.clicked}/>
+                    <img src={sighduck} onClick={this.clicked}/>
                     <p>{this.state.count} Sigh-Duck</p>
                     <p>{this.state.prod} Sigh-Duck / sec.</p>
                 </section>  
