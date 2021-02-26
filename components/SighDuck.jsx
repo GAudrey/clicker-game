@@ -4,7 +4,7 @@ class SighDuck extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            count: 10000,
+            count: 0,
             prod: 0,
             items: [
                 {id: 0, name: 'Wild Sigh-Duck', qty: 0, price: 100, idleD: 3},
