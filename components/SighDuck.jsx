@@ -32,11 +32,11 @@ class SighDuck extends React.Component {
         }
     }
 
-    autoDuck = () => {
+    autoDuck = setInterval(() => {
         this.setState({
             count: this.state.count += this.state.prod
         })
-    }
+    }, 1000)
 
     render(){
         const itemsList = this.state.items.map((item) =>(
@@ -50,9 +50,6 @@ class SighDuck extends React.Component {
                 </div>
             </section>
         ))
-        if(this.state.prod > 0){
-            setInterval(this.autoDuck, 1000);
-        }
         return (
             <>
                 <section>
