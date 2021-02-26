@@ -11,10 +11,12 @@ class SighDuck extends React.Component {
                 {id: 0, name: 'Wild Sigh-Duck', qty: 0, price: 100, idleD: 3},
                 {id: 1, name: 'Sigh-Duck Keychain', qty: 0, price: 250, idleD: 5},
                 {id: 2, name: 'Sigh-Duck Fishing', qty: 0, price: 500, idleD: 10},
-                {id: 3, name: 'Dev Discord Channel', qty: 0, price: 1000, idleD: 25},
-                {id: 4, name: 'Leinox\'s Tips', qty: 0, price: 2500, idleD: 50},
-                {id: 5, name: 'Sighne\'s Autograph', qty: 0, price: 5000, idleD: 100},
-                {id: 6, name: 'Captain Nakou\'s Tweet', qty: 0, price: 10000, idleD: 500},
+                {id: 3, name: 'Discord Dev Channel', qty: 0, price: 1000, idleD: 25},
+                {id: 4, name: 'Buta\'s News', qty: 0, price: 1800, idleD: 33},
+                {id: 5, name: 'Gallant\'s Farming', qty: 0, price: 2000, idleD: 42},
+                {id: 6, name: 'Leinox\'s Tips', qty: 0, price: 2500, idleD: 50},
+                {id: 7, name: 'Sighne\'s Autograph', qty: 0, price: 5000, idleD: 100},
+                {id: 8, name: 'Captain Nakou\'s Tweets', qty: 0, price: 10000, idleD: 500},
             ],
         };
     }
