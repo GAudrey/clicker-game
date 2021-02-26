@@ -18,7 +18,7 @@ class SighDuck extends React.Component {
         return (
             <section>
                 <img src="https://cdn.discordapp.com/attachments/786550523733606420/814505432223580230/sgn_duck_300.png" onClick={this.clicked}/>
-                <p>0 Sigh-Duck</p>
+                <p>{this.state.clicks} Sigh-Duck</p>
                 <p>0 Sigh-Duck / sec.</p>
             </section>
         )
