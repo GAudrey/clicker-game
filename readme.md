@@ -1,6 +1,5 @@
 # A-Team Clicker - Sigh-Duck Edition
 *A clicker game in react*
-## Github page
 
 [Sigh-Duck](https://github.com/GAudrey/larabrary)
 
